@@ -32,11 +32,6 @@ while True:
     print(f"Your choice: {user_choice}")
     print(f"Computer's choice: {computer_choice}")
 
-    # Print the score
-    print("Score:")
-    print(f"You: {user_wins} wins")
-    print(f"Computer: {computer_wins} wins")
-
     # Ask the user if they want to play again
     play_again = input("Do you want to play again? (yes/no): ").lower()
     if play_again != "yes":
